@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@1&display=swap');
+
+* {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.title, .subtitle, .title-producto, .ver-mas {
+    text-align: center;
+}
+
+nav ul li a, p a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    background-color:bisque;
+}
+
+nav ul li a:hover, p a:hover, .button:hover {
+    color: gray;
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+.elements {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.img-banner {
+    width: 97vw;
+    height: 70vh;
+    border: 3px solid black;
+}
+
+.productos-disponibles, .aliados {
+    display: flex;
+    justify-content: space-around;
+}
+.img-producto {
+    width: 25vw;
+    height: 30vh;
+    border-radius: 50px 0px;
+    border: 1px solid black;
+}
+
+.texto-footer {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 50px;
+}
+
+.registro {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.data {
+    display:block;
+    width: 50vw;
+    height: 5vh;
+}
+
+.title-data {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.buttons {
+    margin-top: 10px;
+}
+
+.button {
+    width: 70px;
+    height: 40px;
+    background-color: bisque;
+}
+
+.alert-icon {
+    color: red;
+    width: 50vw;
+    height: 40vh;
+    position: relative;
+    left: 350px;
+}
+
+
